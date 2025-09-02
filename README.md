@@ -1,6 +1,7 @@
 # SOC Automation Toolkit (Python)
 
 Herramienta modular para automatización y análisis Blue Team. Permite:
+
 - Ingestar y parsear logs (Syslog, JSON)
 - Detectar patrones sospechosos mediante reglas simples
 - Verificar IOCs usando listas locales o APIs externas
@@ -8,8 +9,9 @@ Herramienta modular para automatización y análisis Blue Team. Permite:
 - Simular acciones de respuesta (bloqueo de IP, webhook)
 
 ## Estructura del proyecto
+
 soc-toolkit/
-├─ .vscode/
+├─ .vscode
 │  ├─ settings.json
 │  └─ launch.json
 ├─ src/
@@ -31,23 +33,25 @@ soc-toolkit/
 └─ README.md
 
 ## Instalación
+
 1. Clonar el repositorio:
    git clone https://github.com/Cybermemillo/SOC-Automation-Toolkit.git
-   cd soc-toolkit
 
+   cd soc-toolkit
 2. Crear entorno virtual:
    python -m venv .venv
    source .venv/bin/activate    # Linux/macOS
    .venv\Scripts\activate       # Windows
-
 3. Instalar dependencias:
    pip install -r requirements.txt
 
 ## Uso rápido
+
 Ejecutar el script principal:
    python src/main.py --input sample_data/wazuh_sample.json --output report.json
 
 ## Roadmap
+
 - [ ] Ingesta de logs CSV y JSON
 - [ ] Reglas de detección configurables
 - [ ] Verificación de IOCs con APIs externas
@@ -56,4 +60,5 @@ Ejecutar el script principal:
 - [ ] Integración con SOAR mediante export JSON
 
 ## Licencia
+
 MIT License.

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1756831292830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756831300884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n         choice = input(\"Elija una opción: \")\r\n \r\n         if choice == \"1\":\r\n             print(\"Opción 1 seleccionada: Ingestar logs\")\r\n-            # Llamar función parser\r\n         elif choice == \"2\":\r\n             print(\"Opción 2 seleccionada: Detectar patrones\")\r\n         elif choice == \"3\":\r\n             print(\"Opción 3 seleccionada: Verificar IOCs\")\r\n"
+                }
+            ],
+            "date": 1756831292830,
+            "name": "Commit-0",
+            "content": "def main_menu():\r\n    while True:\r\n        print(\"\\nSOC Automation Toolkit\")\r\n        print(\"=====================\")\r\n        print(\"1) Ingestar logs\")\r\n        print(\"2) Detectar patrones sospechosos\")\r\n        print(\"3) Verificar IOCs\")\r\n        print(\"4) Generar reportes\")\r\n        print(\"5) Ejecutar respuesta automática\")\r\n        print(\"0) Salir\")\r\n        choice = input(\"Elija una opción: \")\r\n\r\n        if choice == \"1\":\r\n            print(\"Opción 1 seleccionada: Ingestar logs\")\r\n            # Llamar función parser\r\n        elif choice == \"2\":\r\n            print(\"Opción 2 seleccionada: Detectar patrones\")\r\n        elif choice == \"3\":\r\n            print(\"Opción 3 seleccionada: Verificar IOCs\")\r\n        elif choice == \"4\":\r\n            print(\"Opción 4 seleccionada: Generar reportes\")\r\n        elif choice == \"5\":\r\n            print(\"Opción 5 seleccionada: Ejecutar respuesta\")\r\n        elif choice == \"0\":\r\n            print(\"Saliendo...\")\r\n            break\r\n        else:\r\n            print(\"Opción no válida, intente de nuevo.\")\r\n\r\nif __name__ == \"__main__\":\r\n    main_menu()\r\n"
+        }
+    ]
+}

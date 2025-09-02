@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1756831446134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1756831446134,
+            "name": "Commit-0",
+            "content": "# SOC Automation Toolkit (Python)\r\n\r\nHerramienta modular para automatización y análisis Blue Team. Permite:\r\n\r\n- Ingestar y parsear logs (Syslog, JSON)\r\n- Detectar patrones sospechosos mediante reglas simples\r\n- Verificar IOCs usando listas locales o APIs externas\r\n- Generar reportes (Markdown, HTML, JSON)\r\n- Simular acciones de respuesta (bloqueo de IP, webhook)\r\n\r\n## Estructura del proyecto\r\n\r\nsoc-toolkit/\r\n├─ .vscode\r\n│  ├─ settings.json\r\n│  └─ launch.json\r\n├─ src/\r\n│  ├─ __init__.py\r\n│  ├─ main.py\r\n│  ├─ parser.py\r\n│  ├─ ioc_checker.py\r\n│  ├─ detector.py\r\n│  ├─ reporter.py\r\n│  └─ responder.py\r\n├─ tests/\r\n│  ├─ test_parser.py\r\n│  └─ test_ioc_checker.py\r\n├─ sample_data/\r\n│  ├─ wazuh_sample.json\r\n│  └─ syslog_sample.log\r\n├─ config.yml\r\n├─ requirements.txt\r\n└─ README.md\r\n\r\n## Instalación\r\n\r\n1. Clonar el repositorio:\r\n   git clone https://github.com/Cybermemillo/SOC-Automation-Toolkit.git\r\n\r\n   cd soc-toolkit\r\n2. Crear entorno virtual:\r\n   python -m venv .venv\r\n   source .venv/bin/activate    # Linux/macOS\r\n   .venv\\Scripts\\activate       # Windows\r\n3. Instalar dependencias:\r\n   pip install -r requirements.txt\r\n\r\n## Uso rápido\r\n\r\nEjecutar el script principal:\r\n   python src/main.py --input sample_data/wazuh_sample.json --output report.json\r\n\r\n## Roadmap\r\n\r\n- [ ] Ingesta de logs CSV y JSON\r\n- [ ] Reglas de detección configurables\r\n- [ ] Verificación de IOCs con APIs externas\r\n- [ ] Reportes HTML y Markdown\r\n- [ ] Respuesta automática simulada\r\n- [ ] Integración con SOAR mediante export JSON\r\n\r\n## Licencia\r\n\r\nMIT License.\r\n"
+        }
+    ]
+}
