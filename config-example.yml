@@ -1,0 +1,38 @@
+# Configuración general
+app:
+  name: "SOC Automation Toolkit"
+  version: "0.1.0"
+  log_level: "INFO"          # DEBUG, INFO, WARNING, ERROR
+
+# Configuración de entrada/salida
+io:
+  input_path: "sample_data/wazuh_sample.json"    # Archivo de logs por defecto
+  output_path: "reports/report.json"             # Carpeta o archivo de salida
+  output_format: "json"                          # json | markdown | html
+
+# Reglas de detección
+detection:
+  failed_login_threshold: 5        # Número de intentos fallidos para alertar
+  suspicious_ports: [22, 3389]     # Puertos críticos
+  watch_users: ["root", "admin"]   # Usuarios sensibles a monitorear
+
+# IOC Checker
+ioc:
+  local_ioc_file: "sample_data/ioc_list.csv"     # IOC locales
+  enable_external_lookup: true                   # Consultar APIs externas
+  apis:
+    virustotal: "VT_API_KEY_AQUI"
+    abuseipdb: "ABUSEIPDB_API_KEY_AQUI"
+
+# Reporte
+report:
+  include_summary: true
+  include_details: true
+  markdown_template: "templates/report_template.md"
+  html_template: "templates/report_template.html"
+
+# Respuesta simulada
+response:
+  enable_auto_block: true           # Bloqueo automático (simulado)
+  blocked_ips_file: "data/blocked_ips.txt"
+  webhook_url: ""                   # URL opcional para integración SOAR
