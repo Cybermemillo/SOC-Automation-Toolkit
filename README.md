@@ -32,7 +32,7 @@ soc-toolkit/
 
 ## Instalación
 1. Clonar el repositorio:
-   git clone https://github.com/<usuario>/soc-toolkit.git
+   git clone https://github.com/Cybermemillo/SOC-Automation-Toolkit.git
    cd soc-toolkit
 
 2. Crear entorno virtual:
