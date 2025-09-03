@@ -1,0 +1,155 @@
+Sep  2 17:38:51 syslog systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 722 (rsyslogd) on client request.
+Sep  2 17:38:51 syslog udisksd[729]: Failed to load the 'mdraid' libblockdev plugin
+Sep  2 17:38:51 syslog ModemManager[778]: <info>  ModemManager (version 1.20.0) starting in system bus...
+Sep  2 17:38:51 syslog systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 722 (rsyslogd) on client request.
+Sep  2 17:38:51 syslog rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="722" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Sep  2 17:38:52 syslog systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Sep  2 17:38:52 syslog systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Sep  2 17:38:52 syslog systemd[1]: Failed to start Rotate log files.
+Sep  2 17:38:52 syslog networkd-dispatcher[720]: No valid path found for iwconfig
+Sep  2 17:38:52 syslog networkd-dispatcher[720]: No valid path found for iw
+Sep  2 17:38:52 syslog systemd[1]: Started Modem Manager.
+Sep  2 17:38:52 syslog systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Sep  2 17:38:52 syslog env[730]: Starting Wazuh v4.12.0...
+Sep  2 17:38:52 syslog systemd[1]: Started Disk Manager.
+Sep  2 17:38:52 syslog udisksd[729]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Sep  2 17:38:53 syslog env[730]: Started wazuh-execd...
+Sep  2 17:38:55 syslog env[730]: Started wazuh-agentd...
+Sep  2 17:38:55 syslog ModemManager[778]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep  2 17:38:55 syslog systemd[1]: tmp-snap.rootfs_1QKf1C.mount: Deactivated successfully.
+Sep  2 17:38:56 syslog env[730]: Started wazuh-syscheckd...
+Sep  2 17:38:56 syslog systemd[1]: dmesg.service: Deactivated successfully.
+Sep  2 17:38:56 syslog snapd[725]: overlord.go:284: Acquiring state lock file
+Sep  2 17:38:56 syslog snapd[725]: overlord.go:289: Acquired state lock file
+Sep  2 17:38:57 syslog snapd[725]: daemon.go:273: started snapd/2.70 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-151-generic.
+Sep  2 17:38:57 syslog kernel: [   29.091586] loop6: detected capacity change from 0 to 8
+Sep  2 17:38:57 syslog systemd[1]: tmp-syscheck\x2dmountpoint\x2d2476694817.mount: Deactivated successfully.
+Sep  2 17:38:57 syslog snapd[725]: daemon.go:367: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Sep  2 17:38:57 syslog snapd[725]: backends.go:68: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+Sep  2 17:38:57 syslog snapd[725]: backend.go:141: delegating reload of snap-confine profiles to system snap security profiles setup
+Sep  2 17:38:57 syslog lxd.activate[723]: => Starting LXD activation
+Sep  2 17:38:57 syslog lxd.activate[723]: ==> Loading snap configuration
+Sep  2 17:38:57 syslog lxd.activate[723]: ==> Checking for socket activation support
+Sep  2 17:38:57 syslog systemd[1]: Started Snap Daemon.
+Sep  2 17:38:57 syslog systemd[1]: Finished Wait until snapd is fully seeded.
+Sep  2 17:38:57 syslog systemd[1]: Starting Cloud-init: Config Stage...
+Sep  2 17:38:57 syslog systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Sep  2 17:38:57 syslog dbus-daemon[712]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=725 comm="/usr/lib/snapd/snapd " label="unconfined")
+Sep  2 17:38:57 syslog systemd[1]: Starting Time & Date Service...
+Sep  2 17:38:57 syslog env[730]: Started wazuh-logcollector...
+Sep  2 17:38:57 syslog dbus-daemon[712]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Sep  2 17:38:57 syslog systemd[1]: Started Time & Date Service.
+Sep  2 17:38:57 syslog lxd.activate[723]: ==> Setting LXD socket ownership
+Sep  2 17:38:57 syslog lxd.activate[723]: ==> Setting LXD user socket ownership
+Sep  2 17:38:57 syslog lxd.activate[723]: ==> LXD never started on this system, no need to start it now
+Sep  2 17:38:57 syslog systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Sep  2 17:38:57 syslog systemd[1]: Finished Service for snap application lxd.activate.
+Sep  2 17:38:57 syslog systemd[1]: snap.lxd.activate.service: Consumed 1.639s CPU time.
+Sep  2 17:38:58 syslog env[730]: Started wazuh-modulesd...
+Sep  2 17:38:58 syslog cloud-init[1124]: Cloud-init v. 25.1.4-0ubuntu0~22.04.1 running 'modules:config' at Tue, 02 Sep 2025 17:38:58 +0000. Up 30.19 seconds.
+Sep  2 17:38:58 syslog systemd[1]: Finished Cloud-init: Config Stage.
+Sep  2 17:38:59 syslog snapd[725]: storehelpers.go:916: cannot refresh: snap has no updates available: "core20", "lxd"
+Sep  2 17:39:00 syslog env[730]: Completed.
+Sep  2 17:39:00 syslog systemd[1]: Started Wazuh agent.
+Sep  2 17:39:00 syslog systemd[1]: Reached target Multi-User System.
+Sep  2 17:39:00 syslog systemd[1]: Reached target Graphical Interface.
+Sep  2 17:39:00 syslog systemd[1]: Starting Cloud-init: Final Stage...
+Sep  2 17:39:00 syslog systemd[1]: Starting Record Runlevel Change in UTMP...
+Sep  2 17:39:00 syslog systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Sep  2 17:39:00 syslog systemd[1]: Finished Record Runlevel Change in UTMP.
+Sep  2 17:39:01 syslog cloud-init[1460]: Cloud-init v. 25.1.4-0ubuntu0~22.04.1 running 'modules:final' at Tue, 02 Sep 2025 17:39:01 +0000. Up 33.17 seconds.
+Sep  2 17:39:01 syslog cloud-init[1460]: Cloud-init v. 25.1.4-0ubuntu0~22.04.1 finished at Tue, 02 Sep 2025 17:39:01 +0000. Datasource DataSourceNone.  Up 33.39 seconds
+Sep  2 17:39:01 syslog systemd[1]: Finished Cloud-init: Final Stage.
+Sep  2 17:39:01 syslog systemd[1]: Reached target Cloud-init target.
+Sep  2 17:39:01 syslog systemd[1]: Startup finished in 4.357s (kernel) + 29.179s (userspace) = 33.536s.
+Sep  2 17:39:04 syslog systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Sep  2 17:39:13 syslog systemd[1]: Reloading.
+Sep  2 17:39:14 syslog systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Sep  2 17:39:14 syslog systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Sep  2 17:39:14 syslog systemd[1]: Mounting Mount unit for snapd, revision 25202...
+Sep  2 17:39:14 syslog kernel: [   46.135683] loop6: detected capacity change from 0 to 103976
+Sep  2 17:39:14 syslog systemd[1]: Mounted Mount unit for snapd, revision 25202.
+Sep  2 17:39:15 syslog snapd[725]: backend.go:285: reloading profiles of snap-confine provided by the system snap
+Sep  2 17:39:15 syslog kernel: [   47.173600] kauditd_printk_skb: 31 callbacks suppressed
+Sep  2 17:39:15 syslog kernel: [   47.173602] audit: type=1400 audit(1756834755.186:43): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/25202/usr/lib/snapd/snap-confine" pid=1560 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.174683] audit: type=1400 audit(1756834755.186:44): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/25202/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1560 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.188883] audit: type=1400 audit(1756834755.206:45): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=1562 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.196328] audit: type=1400 audit(1756834755.218:46): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=1563 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.208212] audit: type=1400 audit(1756834755.230:47): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=1564 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.214423] audit: type=1400 audit(1756834755.230:48): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=1565 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.222436] audit: type=1400 audit(1756834755.238:49): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=1566 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.230796] audit: type=1400 audit(1756834755.250:50): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=1567 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.239042] audit: type=1400 audit(1756834755.262:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=1568 comm="apparmor_parser"
+Sep  2 17:39:15 syslog kernel: [   47.244351] audit: type=1400 audit(1756834755.262:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=1569 comm="apparmor_parser"
+Sep  2 17:39:15 syslog snapd[725]: daemon.go:553: gracefully waiting for running hooks
+Sep  2 17:39:15 syslog snapd[725]: daemon.go:555: done waiting for running hooks
+Sep  2 17:39:18 syslog snapd[725]: overlord.go:528: Released state lock file
+Sep  2 17:39:18 syslog systemd[1]: snapd.service: Deactivated successfully.
+Sep  2 17:39:18 syslog systemd[1]: snapd.service: Consumed 6.786s CPU time.
+Sep  2 17:39:18 syslog systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Sep  2 17:39:18 syslog systemd[1]: Stopped Snap Daemon.
+Sep  2 17:39:18 syslog systemd[1]: snapd.service: Consumed 6.786s CPU time.
+Sep  2 17:39:18 syslog systemd[1]: Starting Snap Daemon...
+Sep  2 17:39:19 syslog snapd[1597]: overlord.go:284: Acquiring state lock file
+Sep  2 17:39:19 syslog snapd[1597]: overlord.go:289: Acquired state lock file
+Sep  2 17:39:19 syslog snapd[1597]: patch.go:64: Patching system state level 6 to sublevel 1...
+Sep  2 17:39:19 syslog snapd[1597]: patch.go:64: Patching system state level 6 to sublevel 2...
+Sep  2 17:39:19 syslog snapd[1597]: patch.go:64: Patching system state level 6 to sublevel 3...
+Sep  2 17:39:19 syslog snapd[1597]: daemon.go:276: started snapd/2.71 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-151-generic.
+Sep  2 17:39:19 syslog kernel: [   51.774485] loop7: detected capacity change from 0 to 8
+Sep  2 17:39:19 syslog systemd[1]: tmp-syscheck\x2dmountpoint\x2d2449147125.mount: Deactivated successfully.
+Sep  2 17:39:19 syslog snapd[1597]: daemon.go:370: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Sep  2 17:39:19 syslog snapd[1597]: backends.go:68: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+Sep  2 17:39:20 syslog snapd[1597]: backend.go:141: delegating reload of snap-confine profiles to system snap security profiles setup
+Sep  2 17:39:20 syslog snapd[1597]: backend.go:285: reloading profiles of snap-confine provided by the system snap
+Sep  2 17:39:20 syslog kernel: [   52.957087] kauditd_printk_skb: 6 callbacks suppressed
+Sep  2 17:39:20 syslog kernel: [   52.957090] audit: type=1400 audit(1756834760.970:59): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/25202/usr/lib/snapd/snap-confine" pid=1737 comm="apparmor_parser"
+Sep  2 17:39:20 syslog kernel: [   52.957291] audit: type=1400 audit(1756834760.970:60): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/25202/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1737 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.054124] audit: type=1400 audit(1756834761.066:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.activate" pid=1739 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.167451] audit: type=1400 audit(1756834761.182:62): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.benchmark" pid=1740 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.268577] audit: type=1400 audit(1756834761.286:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.buginfo" pid=1741 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.359739] audit: type=1400 audit(1756834761.378:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.check-kernel" pid=1742 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.468731] audit: type=1400 audit(1756834761.482:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.daemon" pid=1743 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.596488] audit: type=1400 audit(1756834761.618:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.configure" pid=1744 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.690936] audit: type=1400 audit(1756834761.710:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.install" pid=1745 comm="apparmor_parser"
+Sep  2 17:39:21 syslog kernel: [   53.795115] audit: type=1400 audit(1756834761.810:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.remove" pid=1746 comm="apparmor_parser"
+Sep  2 17:39:22 syslog systemd[1]: Started Snap Daemon.
+Sep  2 17:39:22 syslog systemd[1]: snap-snapd-21759.mount: Deactivated successfully.
+Sep  2 17:39:23 syslog systemd[1]: Reloading.
+Sep  2 17:39:23 syslog systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Sep  2 17:39:23 syslog systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+Sep  2 17:39:24 syslog snapd[1597]: storehelpers.go:916: cannot refresh snap "snapd": snap has no updates available
+Sep  2 17:39:52 syslog systemd[1]: systemd-timedated.service: Deactivated successfully.
+Sep  2 17:41:06 syslog systemd[1]: getty@tty1.service: Deactivated successfully.
+Sep  2 17:41:06 syslog systemd[1]: getty@tty1.service: Scheduled restart job, restart counter is at 1.
+Sep  2 17:41:06 syslog systemd[1]: Stopped Getty on tty1.
+Sep  2 17:41:06 syslog systemd[1]: Started Getty on tty1.
+Sep  2 17:41:56 syslog systemd[1]: Created slice User Slice of UID 1000.
+Sep  2 17:41:56 syslog systemd[1]: Starting User Runtime Directory /run/user/1000...
+Sep  2 17:41:56 syslog systemd[1]: Finished User Runtime Directory /run/user/1000.
+Sep  2 17:41:56 syslog systemd[1]: Starting User Manager for UID 1000...
+Sep  2 17:41:56 syslog systemd[1922]: Queued start job for default target Main User Target.
+Sep  2 17:41:56 syslog systemd[1922]: Created slice User Application Slice.
+Sep  2 17:41:56 syslog systemd[1922]: Reached target Paths.
+Sep  2 17:41:56 syslog systemd[1922]: Reached target Timers.
+Sep  2 17:41:56 syslog systemd[1922]: Starting D-Bus User Message Bus Socket...
+Sep  2 17:41:56 syslog systemd[1922]: Listening on GnuPG network certificate management daemon.
+Sep  2 17:41:56 syslog systemd[1922]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Sep  2 17:41:56 syslog systemd[1922]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Sep  2 17:41:56 syslog systemd[1922]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Sep  2 17:41:56 syslog systemd[1922]: Listening on GnuPG cryptographic agent and passphrase cache.
+Sep  2 17:41:56 syslog systemd[1922]: Listening on debconf communication socket.
+Sep  2 17:41:56 syslog systemd[1922]: Listening on REST API socket for snapd user session agent.
+Sep  2 17:41:56 syslog systemd[1922]: Listening on D-Bus User Message Bus Socket.
+Sep  2 17:41:56 syslog systemd[1922]: Reached target Sockets.
+Sep  2 17:41:56 syslog systemd[1922]: Reached target Basic System.
+Sep  2 17:41:56 syslog systemd[1]: Started User Manager for UID 1000.
+Sep  2 17:41:56 syslog systemd[1]: Started Session 1 of User syslogubuntu.
+Sep  2 17:41:56 syslog systemd[1922]: Reached target Main User Target.
+Sep  2 17:41:56 syslog systemd[1922]: Startup finished in 185ms.
+Sep  2 17:43:50 syslog systemd[1]: Starting Download data for packages that failed at package install time...
+Sep  2 17:43:50 syslog systemd[1]: Started Session 3 of User syslogubuntu.
+Sep  2 17:43:50 syslog systemd[1]: update-notifier-download.service: Deactivated successfully.
+Sep  2 17:43:50 syslog systemd[1]: Finished Download data for packages that failed at package install time.
+Sep  2 17:43:50 syslog systemd[1]: session-3.scope: Deactivated successfully.
+Sep  2 17:44:01 syslog systemd[1]: Started Session 4 of User syslogubuntu.

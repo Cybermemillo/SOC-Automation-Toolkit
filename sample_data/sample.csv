@@ -1,0 +1,4 @@
+timestamp,host,process,message,severity
+2025-09-02T17:09:39,wazuh,ossec,"Manager started",3
+2025-09-02T17:23:54,wazuh,sudo,"Session opened for user root",3
+2025-09-02T17:28:42,wazuh,sshd,"Accepted password for wazuh from 10.0.0.2",3
